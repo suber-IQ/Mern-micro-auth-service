@@ -12,7 +12,6 @@ const startServer = () => {
             setTimeout(() => {
                 process.exit(1);
             }, 1000);
-            // process.exit(1);
         }
     }
 };
