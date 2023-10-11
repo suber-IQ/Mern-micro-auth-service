@@ -1,7 +1,7 @@
 {
     "name": "auth-service",
     "version": "1.0.0",
-    "description": "A User Management Service",
+    "description": "a user management service",
     "main": "index.js",
     "scripts": {
         "dev": "nodemon src/server.ts",
@@ -13,7 +13,7 @@
         "test": "jest --watch --runInBand"
     },
     "keywords": [],
-    "author": "Sumit Kumar <suberquercusumit@gmail.com",
+    "author": "sumit kumar <suberquercusumit@gmail.com",
     "license": "ISC",
     "devDependencies": {
         "@types/express": "^4.17.18",
