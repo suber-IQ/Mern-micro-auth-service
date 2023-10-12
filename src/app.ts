@@ -5,11 +5,13 @@ import { HttpError } from 'http-errors';
 import authRouter from './routes/auth';
 
 const app: Application = express();
+app.use(express.json());
 
 app.get('/', (req: Request, res: Response) => {
     res.send('Welcome to Auth Service');
 });
 
+// User Routes
 app.use('/auth', authRouter);
 
 // 👉 Error Handling
